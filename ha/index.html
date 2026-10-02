@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>if(!/\/$|\.html$/.test(location.pathname))location.replace(location.pathname+'/'+location.search+location.hash)</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Beyondworld HA filler portfolio: VERSUS, GROA, Juvelife, LEVERMAX and LifDerma. Lidocaine-free cross-linked HA at 20 and 24 mg/ml. VERSUS vials 50, 60 and 100 ml and 50 ml prefilled syringes for licensed distributors and clinics.">
+<meta property="og:title" content="Beyondworld HA Filler Portfolio">
+<meta property="og:description" content="Five HA filler brands from Korea for licensed distributors and clinics.">
+<meta property="og:image" content="img/versus-body-stack.jpg">
+<title>Beyondworld HA Filler Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: dark clinical-luxury; a measured "volume scale" runs through the page — every product drawn to its true fill. */
+:root{
+  --bg:#0c1424; --surface:#121d33; --line:#22314f; --fg:#e9edf5; --muted:#93a0b8;
+  --gold:#c9a75d; --gold-soft:rgba(201,167,93,.14); --mint:#6fbfa3; --gel:rgba(160,205,230,.55);
+  --display:"Bodoni Moda","Didot","Times New Roman",serif;
+  --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#f5f6f9; --surface:#ffffff; --line:#d8dde8; --fg:#121b2e; --muted:#5a6680;
+  --gold:#97762f; --gold-soft:rgba(151,118,47,.10); --mint:#2f8a6b; --gel:rgba(80,140,185,.40); color-scheme:light}}
+:root[data-theme="light"]{
+  --bg:#f5f6f9; --surface:#ffffff; --line:#d8dde8; --fg:#121b2e; --muted:#5a6680;
+  --gold:#97762f; --gold-soft:rgba(151,118,47,.10); --mint:#2f8a6b; --gel:rgba(80,140,185,.40); color-scheme:light}
+
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:1160px;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.08;text-wrap:balance;margin:0}
+.eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+p{margin:0;max-width:62ch;color:var(--muted)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* nav */
+header.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.logo{font-family:var(--display);font-weight:700;letter-spacing:.22em;font-size:1.15rem}
+.logo small{font-family:var(--mono);font-weight:400;letter-spacing:.1em;font-size:.7rem;color:var(--gold);margin-left:8px}
+.nav nav{display:flex;gap:22px;font-size:.88rem}
+.nav nav a{text-decoration:none;color:var(--muted)}
+.nav nav a:hover{color:var(--fg)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:2px;font-weight:600;font-size:.9rem;text-decoration:none;border:1px solid var(--gold);background:var(--gold);color:#0c1424;cursor:pointer;font-family:var(--body)}
+.btn.ghost{background:transparent;color:var(--gold)}
+.btn:hover{filter:brightness(1.08)}
+@media (max-width:760px){.nav nav{display:none}}
+
+/* hero */
+.hero{padding-block:clamp(48px,8vw,96px) clamp(40px,6vw,72px);display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,6.2vw,4.9rem);margin-block:18px 22px}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero p{font-size:1.08rem}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero-art{position:relative;min-width:0}
+.hero-art svg{width:100%;height:auto;display:block}
+@media (max-width:860px){.hero{grid-template-columns:1fr}.hero-art{max-width:460px}}
+
+.strip{border-block:1px solid var(--line)}
+.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:22px 18px;border-left:1px solid var(--line)}
+.strip div:first-child{border-left:0;padding-left:0}
+.strip b{display:block;font-family:var(--display);font-size:1.7rem;font-weight:500;color:var(--fg)}
+.strip span{font-size:.82rem;color:var(--muted)}
+@media (max-width:760px){.strip .wrap{grid-template-columns:1fr 1fr}.strip div:nth-child(3){border-left:0;padding-left:0}.strip div{border-top:1px solid var(--line)}.strip div:nth-child(-n+2){border-top:0}}
+
+section{padding-block:clamp(64px,9vw,112px)}
+.head{display:flex;flex-direction:column;gap:14px;margin-bottom:44px}
+.head h2{font-size:clamp(2rem,4.4vw,3.2rem)}
+
+/* lineup */
+.lineup{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.sku{background:var(--surface);padding:28px 24px 26px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.sku .fig{height:220px;display:flex;align-items:flex-end;justify-content:center;border-bottom:1px dashed var(--line);padding-bottom:12px}
+.sku .fig svg{height:100%;width:auto;max-width:100%}
+.sku .tag{align-self:flex-start;font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;padding:4px 8px;border:1px solid var(--line);color:var(--muted)}
+.sku.syr .tag{border-color:var(--mint);color:var(--mint)}
+.sku h3{font-size:2.4rem}
+.sku h3 span{font-family:var(--mono);font-size:1rem;color:var(--muted);margin-left:4px}
+.sku p{font-size:.9rem}
+.sku dl{margin:auto 0 0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:.82rem;padding-top:12px;border-top:1px solid var(--line)}
+.sku dt{color:var(--muted)} .sku dd{margin:0;text-align:right}
+@media (max-width:980px){.lineup{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.lineup{grid-template-columns:1fr}}
+
+/* brands */
+.brands{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.brand{background:var(--surface);padding:34px 20px 18px;display:flex;flex-direction:column;justify-content:space-between;gap:28px;min-height:150px;min-width:0}
+.brand .bn{font-family:var(--display);font-size:clamp(1.3rem,2.2vw,1.75rem);color:var(--fg);overflow-wrap:anywhere}
+.brand .mono{font-size:.72rem;color:var(--gold)}
+.brand:hover{background:var(--gold-soft)}
+.bmeta{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:24px}
+.bmeta div{display:flex;flex-direction:column;gap:6px;font-size:.95rem}
+@media (max-width:900px){.brands{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){.brands{grid-template-columns:1fr 1fr}.bmeta{grid-template-columns:1fr}}
+.brand{text-decoration:none}
+/* showcase */
+.show{display:grid;gap:clamp(56px,8vw,96px)}
+.bs{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(24px,4vw,56px);align-items:center}
+.bs.rev .bs-txt{order:2}
+.bs-txt{display:flex;flex-direction:column;gap:16px;min-width:0}
+.bs-txt h3{font-size:clamp(2rem,4vw,2.8rem)}
+.facts{list-style:none;margin:6px 0 0;padding:0;border-top:1px solid var(--line)}
+.facts li{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.88rem}
+.facts span{color:var(--muted)} .facts b{font-weight:600;text-align:right}
+figure{margin:0;min-width:0}
+figure img{display:block;width:100%;height:100%;object-fit:cover;background:var(--surface)}
+figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;color:var(--muted);padding-top:8px}
+.gal{display:grid;gap:12px;min-width:0}
+.gal figure{display:flex;flex-direction:column}
+.gal figure img{flex:1;min-height:0}
+.g3{grid-template-columns:1.2fr 1fr;grid-template-rows:repeat(3,170px)}
+.g3 .main{grid-row:1/4}
+.g2{grid-template-columns:1fr 1fr;height:480px}
+.g1 .main img{aspect-ratio:1/1;max-height:520px}
+.ph-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ph{aspect-ratio:4/5;max-width:100%;border:1px dashed var(--line);background:var(--surface);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:16px;text-align:center}
+.ph .bn{font-family:var(--display);font-size:clamp(1.2rem,2.4vw,1.7rem)}
+.ph .mono{font-size:.7rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+.inbox{margin-top:8px}
+.inbox img{aspect-ratio:4/3;max-width:100%}
+@media (max-width:860px){.bs{grid-template-columns:1fr}.bs.rev .bs-txt{order:0}.g3{grid-template-rows:repeat(3,150px)}.g2{height:360px}}
+@media (max-width:520px){.g3{grid-template-columns:1fr;grid-template-rows:auto}.g3 .main{grid-row:auto}.g3 figure img{aspect-ratio:4/3}.g2{grid-template-columns:1fr;height:auto}.g2 figure img{aspect-ratio:3/4}}
+.lifd{background:#233e37;display:flex;align-items:center;justify-content:center;aspect-ratio:16/10;max-width:100%;padding:24px}
+.lifd img{width:70%;max-width:420px;mix-blend-mode:normal}
+.sku .fig.photo{padding:0;border-bottom:0;height:240px;margin:-28px -24px 0;overflow:hidden}
+.sku .fig.photo img{width:100%;height:100%;object-fit:cover;object-position:center 45%;display:block}
+.cmp{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(24px,4vw,48px);align-items:center;margin-bottom:40px}
+.cmp-img{position:relative;max-width:100%}
+.cmp-img img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
+.lbl{position:absolute;transform:translateX(-50%);font-family:var(--mono);font-size:.8rem;font-weight:500;background:var(--gold);color:#0c1424;padding:4px 10px;white-space:nowrap}
+.cmp-txt{display:flex;flex-direction:column;gap:16px;min-width:0}
+.cmp-txt h3{font-size:clamp(1.8rem,3.6vw,2.6rem)}
+@media (max-width:860px){.cmp{grid-template-columns:1fr}.cmp-img{max-width:440px}}
+.mailbox{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:10px;padding:16px 18px;border:1px solid var(--line);background:var(--surface)}
+.mailbox .eyebrow{flex-basis:100%}
+.mail{font-size:clamp(1rem,2.4vw,1.25rem);color:var(--gold);text-decoration:none;user-select:all;overflow-wrap:anywhere}
+.mailbox .btn{padding:8px 14px;font-size:.8rem}
+/* format compare */
+.formats{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.fmt{border:1px solid var(--line);padding:32px;display:flex;flex-direction:column;gap:16px;min-width:0}
+.fmt.v{border-top:3px solid var(--gold)} .fmt.s{border-top:3px solid var(--mint)}
+.fmt h3{font-size:1.9rem}
+.fmt ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.fmt li{display:grid;grid-template-columns:18px 1fr;gap:10px;color:var(--muted);font-size:.95rem}
+.fmt li::before{content:"";width:8px;height:8px;margin-top:9px;border:1px solid var(--gold);transform:rotate(45deg)}
+.fmt.s li::before{border-color:var(--mint)}
+@media (max-width:760px){.formats{grid-template-columns:1fr}}
+
+/* zones */
+.zones{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line)}
+.zone{padding:26px 24px 26px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:auto 1fr;gap:4px 18px;align-items:baseline}
+.zone .mono{color:var(--gold);font-size:.8rem;grid-row:span 2}
+.zone h3{font-family:var(--body);font-weight:600;font-size:1.05rem}
+.zone p{font-size:.88rem}
+@media (max-width:860px){.zones{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.zones{grid-template-columns:1fr}}
+
+/* spec table */
+.tbl{overflow-x:auto;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;min-width:640px;font-size:.9rem}
+th,td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--line)}
+thead th{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);background:var(--gold-soft);font-weight:500}
+tbody th{font-weight:600}
+td{color:var(--muted);font-variant-numeric:tabular-nums}
+.tbd{font-family:var(--mono);font-size:.78rem;color:var(--muted);opacity:.75}
+.note{margin-top:14px;font-size:.82rem}
+
+/* inquiry */
+.inq{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px;background:var(--surface);border:1px solid var(--line);padding:28px}
+label{display:flex;flex-direction:column;gap:6px;font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.04em}
+.full{grid-column:1/-1}
+input,select,textarea{font:inherit;font-size:.95rem;color:var(--fg);background:var(--bg);border:1px solid var(--line);padding:11px 12px;border-radius:2px;width:100%;min-width:0}
+textarea{min-height:96px;resize:vertical}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+legend{font-size:.78rem;color:var(--muted);font-weight:600;margin-bottom:8px;letter-spacing:.04em}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;width:1px;height:1px}
+.chip span{display:inline-block;padding:8px 12px;border:1px solid var(--line);font-family:var(--mono);font-size:.8rem;cursor:pointer;color:var(--fg)}
+.chip input:checked+span{border-color:var(--gold);background:var(--gold-soft);color:var(--gold)}
+.chip input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px}
+.out{grid-column:1/-1;border-top:1px dashed var(--line);padding-top:16px;display:grid;gap:10px}
+.out pre{white-space:pre-wrap;font-family:var(--mono);font-size:.8rem;background:var(--bg);border:1px solid var(--line);padding:14px;margin:0;color:var(--fg);max-height:240px;overflow:auto}
+@media (max-width:860px){.inq{grid-template-columns:1fr}form{grid-template-columns:1fr}}
+
+footer{border-top:1px solid var(--line);padding-block:32px;font-size:.82rem;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+@media (prefers-reduced-motion:no-preference){.fill{animation:rise 1.4s cubic-bezier(.2,.7,.2,1) both}@keyframes rise{from{transform:scaleY(.2)}to{transform:scaleY(1)}}.fill{transform-box:fill-box;transform-origin:bottom}}
+</style>
+</head>
+<body>
+
+
+<header class="nav">
+  <div class="wrap">
+    <div class="logo">BEYONDWORLD<small>HA FILLER</small></div>
+    <nav aria-label="Main">
+      <a href="#brands">Brands</a><a href="#lineup">Lineup</a><a href="#formats">Formats</a><a href="#zones">Indications</a><a href="#specs">Specifications</a>
+    </nav>
+    <a class="btn ghost" href="#inquiry">Partner inquiry</a>
+  </div>
+</header>
+
+<main>
+<div class="wrap hero">
+  <div>
+    <div class="eyebrow">Cross-linked hyaluronic acid · Large-volume dermal filler</div>
+    <h1>Volume, measured in <em>tens</em> of millilitres.</h1>
+    <p>Five brands of cross-linked hyaluronic acid filler for body contouring and large-area volume restoration. HA at 20 or 24&nbsp;mg/ml, lidocaine-free. VERSUS comes in three bulk vial sizes for clinics that draw their own doses, and VERSUS and Juvelife both come as a 50&nbsp;ml prefilled syringe for ready-to-inject procedures.</p>
+    <div class="ctas"><a class="btn" href="#brands">View the brands</a><a class="btn ghost" href="#inquiry">Request price list</a></div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <svg viewBox="0 0 460 360">
+      <g stroke="var(--muted)" stroke-width="1" fill="none" opacity=".5">
+        <line x1="20" y1="320" x2="440" y2="320"/>
+        <line x1="20" y1="320" x2="20" y2="60"/>
+      </g>
+      <g font-family="JetBrains Mono, monospace" font-size="10" fill="var(--muted)">
+        <text x="26" y="324" dy="-4">0</text><text x="26" y="216">50</text><text x="26" y="174">60</text><text x="26" y="94">100 ml</text>
+      </g>
+      <g stroke="var(--line)" stroke-dasharray="3 4"><line x1="60" y1="212" x2="440" y2="212"/><line x1="60" y1="170" x2="440" y2="170"/><line x1="60" y1="90" x2="440" y2="90"/></g>
+      <!-- vials, fill height = volume -->
+      <g>
+        <rect x="80" y="196" width="62" height="124" rx="6" fill="var(--surface)" stroke="var(--fg)" stroke-opacity=".35"/>
+        <rect x="92" y="180" width="38" height="18" fill="var(--gold)"/>
+        <rect class="fill" x="84" y="212" width="54" height="104" rx="3" fill="var(--gel)"/>
+        <rect x="170" y="154" width="70" height="166" rx="7" fill="var(--surface)" stroke="var(--fg)" stroke-opacity=".35"/>
+        <rect x="184" y="138" width="42" height="18" fill="var(--gold)"/>
+        <rect class="fill" x="174" y="170" width="62" height="146" rx="3" fill="var(--gel)" style="animation-delay:.12s"/>
+        <rect x="268" y="74" width="80" height="246" rx="8" fill="var(--surface)" stroke="var(--fg)" stroke-opacity=".35"/>
+        <rect x="284" y="58" width="48" height="18" fill="var(--gold)"/>
+        <rect class="fill" x="272" y="90" width="72" height="226" rx="3" fill="var(--gel)" style="animation-delay:.24s"/>
+      </g>
+      <!-- syringe -->
+      <g transform="translate(380 96)">
+        <rect x="0" y="28" width="36" height="196" rx="4" fill="var(--surface)" stroke="var(--mint)"/>
+        <rect class="fill" x="4" y="116" width="28" height="104" fill="var(--gel)" style="animation-delay:.36s"/>
+        <rect x="8" y="-6" width="20" height="34" fill="none" stroke="var(--mint)"/>
+        <rect x="-8" y="-12" width="52" height="8" fill="var(--mint)"/>
+        <rect x="13" y="224" width="10" height="14" fill="var(--mint)"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<div class="strip">
+  <div class="wrap">
+    <div><b class="mono">5</b><span>Brands</span></div>
+    <div><b class="mono">50–100<small style="font-size:.9rem"> ml</small></b><span>Vial & syringe volumes</span></div>
+    <div><b class="mono">20 / 24<small style="font-size:.9rem"> mg/ml</small></b><span>HA concentration</span></div>
+    <div><b>No lidocaine</b><span>Anaesthetic-free gel</span></div>
+  </div>
+</div>
+
+<section id="brands">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Brands</div>
+      <h2>Five brands, one supply partner.</h2>
+      <p>Body fillers, dermal fillers and hydra-gels from a single source. Pack sizes differ by brand; each one is shown below.</p>
+    </div>
+    <div class="brands">
+      <a class="brand" href="#b-versus"><span class="bn" style="letter-spacing:.24em">VERSUS</span><span class="mono">01 →</span></a>
+      <a class="brand" href="#b-groa"><span class="bn" style="font-family:var(--body);font-weight:700;letter-spacing:.3em">GROA</span><span class="mono">02 →</span></a>
+      <a class="brand" href="#b-juvelife"><span class="bn" style="font-style:italic">Juvelife</span><span class="mono">03 →</span></a>
+      <a class="brand" href="#b-levermax"><span class="bn" style="font-family:var(--body);font-weight:600;letter-spacing:.14em">LEVERMAX</span><span class="mono">04 →</span></a>
+      <a class="brand" href="#b-lifderma"><span class="bn">LifDerma</span><span class="mono">05 →</span></a>
+    </div>
+    <div class="bmeta">
+      <div><span class="eyebrow">Formats</span><span>Vial 50 · 60 · 100 ml &nbsp;/&nbsp; Syringe 50 ml</span></div>
+      <div><span class="eyebrow">HA concentration</span><span class="mono">20 mg/ml · 24 mg/ml</span></div>
+      <div><span class="eyebrow">Lidocaine</span><span>None</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="showcase" style="padding-top:0">
+  <div class="wrap show">
+
+    <article class="bs" id="b-versus">
+      <div class="bs-txt">
+        <span class="eyebrow">01 · VERSUS</span>
+        <h3>VERSUS Body</h3>
+        <p>Cross-linked hyaluronic acid body filler. Supplied 50 ml × 1 per box, in a green marbled presentation case with the prefilled syringe and plunger rod in a sealed tray.</p>
+        <ul class="facts"><li><span>Vials</span><b>50 · 60 · 100 ml</b></li><li><span>Syringe</span><b>50 ml × 1 ea</b></li><li><span>Type</span><b>Body filler</b></li></ul>
+      </div>
+      <div class="gal g3">
+        <figure class="main"><img src="img/versus-body-stack.jpg" alt="Stack of green marbled VERSUS Body boxes" loading="lazy"><figcaption>VERSUS Body retail box</figcaption></figure>
+        <figure><img src="img/versus-body-syringe.jpg" alt="Open VERSUS Body box next to the 50 ml prefilled syringe in its tray" loading="lazy"><figcaption>Box and 50 ml syringe tray</figcaption></figure>
+        <figure><img src="img/versus-vials-bulk.jpg" alt="Rows of sealed VERSUS glass vials in a shipping carton" loading="lazy"><figcaption>VERSUS vials, bulk carton</figcaption></figure>
+        <figure><img src="img/versus-white-boxes.jpg" alt="Ten white VERSUS 50 ml boxes" loading="lazy"><figcaption>VERSUS 50 ml, white pack</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="bs rev" id="b-juvelife">
+      <div class="bs-txt">
+        <span class="eyebrow">03 · Juvelife</span>
+        <h3>Juvelife</h3>
+        <p>Micro beads of cross-linked hyaluronic acid. Sterile, absorbable HA dermal filler manufactured by LIFE Pharma, supplied as one 50 ml prefilled syringe with instructions for use.</p>
+        <ul class="facts"><li><span>Pack</span><b>1 prefilled syringe · 50 ml</b></li><li><span>Maker</span><b>LIFE Pharma</b></li></ul>
+      </div>
+      <div class="gal g2">
+        <figure class="main"><img src="img/juvelife-box.jpg" alt="Purple Juvelife 50 ml box" loading="lazy"><figcaption>Juvelife 50 ml box</figcaption></figure>
+        <figure><img src="img/syringe-blister-upright.jpg" alt="Juvelife 50 ml prefilled syringe and plunger rod in a sealed blister tray" loading="lazy"><figcaption>50 ml syringe and plunger rod, sealed tray</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="bs" id="b-groa">
+      <div class="bs-txt">
+        <span class="eyebrow">02 · GROA</span>
+        <h3>GROA</h3>
+        <p>Hyaluronic acid dermal filler in three densities, each with its own colour-coded pack.</p>
+        <ul class="facts"><li><span>Soft</span><b>Lavender / violet</b></li><li><span>Mid</span><b>Rose / teal</b></li><li><span>Hard</span><b>Periwinkle / charcoal</b></li></ul>
+      </div>
+      <div class="gal g1">
+        <figure class="main"><img src="img/groa-range.jpg" alt="GROA Mid, Soft and Hard boxes side by side" loading="lazy"><figcaption>GROA Mid · Soft · Hard</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="bs rev" id="b-levermax">
+      <div class="bs-txt">
+        <span class="eyebrow">04 · LEVERMAX</span>
+        <h3>LEVERMAX</h3>
+        <p>Hyaluronic acid hydra-gel in two versions: the standard white pack and a PLUS version in black. Both are supplied 10 ml × 1 per box.</p>
+        <ul class="facts"><li><span>Hydra-Gel</span><b>10 ml × 1 · white pack</b></li><li><span>Hydra-Gel PLUS</span><b>10 ml × 1 · black pack</b></li></ul>
+      </div>
+      <div class="gal g1">
+        <figure class="main"><img src="img/levermax-pair.jpg" alt="LEVERMAX Hydra-Gel PLUS black box beside the standard white Hydra-Gel box" loading="lazy" style="aspect-ratio:3/4"><figcaption>LEVERMAX Hydra-Gel PLUS · Hydra-Gel</figcaption></figure>
+      </div>
+    </article>
+
+    <article class="bs" id="b-lifderma">
+      <div class="bs-txt">
+        <span class="eyebrow">05 · LifDerma</span>
+        <h3>LifDerma</h3>
+        <p>Product photography is in preparation. Packaging images and datasheets are available to partners on request.</p>
+      </div>
+      <div class="lifd"><img src="img/lifderma-logo.jpg" alt="LifDerma logo in gold on deep green"></div>
+    </article>
+
+  </div>
+</section>
+
+<section id="lineup" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Lineup</div>
+      <h2>Large-volume formats</h2>
+      <p>Vials are VERSUS only. The 50 ml prefilled syringe is available as VERSUS and Juvelife.</p>
+          </div>
+    <div class="cmp">
+      <figure class="cmp-img">
+        <img src="img/versus-vial-compare.jpg" alt="VERSUS 50 ml vial beside the larger 100 ml vial" loading="lazy">
+        <span class="lbl" style="left:34%;top:30%">50 ml</span>
+        <span class="lbl" style="left:68%;top:6%">100 ml</span>
+      </figure>
+      <div class="cmp-txt">
+        <span class="eyebrow">Actual size comparison</span>
+        <h3>VERSUS 50 ml vs 100 ml</h3>
+        <p>Both vials share the same flip-off seal and clear glass body. The 100 ml vial is roughly twice the height, so one unit covers large-area or bilateral treatments without opening a second vial.</p>
+        <ul class="facts"><li><span>50 ml</span><b>Single-area procedures</b></li><li><span>60 ml</span><b>Extra headroom for bilateral work</b></li><li><span>100 ml</span><b>Large-area contouring</b></li></ul>
+      </div>
+    </div>
+    <div class="lineup">
+      <article class="sku">
+        <div class="fig photo"><img src="img/versus-vial.jpg" alt="VERSUS 50 ml vial" loading="lazy"></div>
+        <span class="tag">VERSUS · Vial</span>
+        <h3>50<span>ml</span></h3>
+        <p>Entry bulk size. Suits single-area body procedures and clinics trialling the line.</p>
+        <dl><dt>Format</dt><dd>Glass vial</dd><dt>Use</dt><dd>Draw into clinic syringes</dd><dt>Code</dt><dd class="mono">VS-V50</dd></dl>
+      </article>
+      <article class="sku">
+        <div class="fig photo"><img src="img/versus-vial.jpg" alt="VERSUS 60 ml vial" loading="lazy"></div>
+        <span class="tag">VERSUS · Vial</span>
+        <h3>60<span>ml</span></h3>
+        <p>Extra headroom for bilateral treatments in one session without opening a second unit.</p>
+        <dl><dt>Format</dt><dd>Glass vial</dd><dt>Use</dt><dd>Draw into clinic syringes</dd><dt>Code</dt><dd class="mono">VS-V60</dd></dl>
+      </article>
+      <article class="sku">
+        <div class="fig photo"><img src="img/versus-vial.jpg" alt="VERSUS 100 ml vial" loading="lazy"></div>
+        <span class="tag">VERSUS · Vial</span>
+        <h3>100<span>ml</span></h3>
+        <p>Highest-volume unit for large-area contouring and high-throughput body clinics.</p>
+        <dl><dt>Format</dt><dd>Glass vial</dd><dt>Use</dt><dd>Draw into clinic syringes</dd><dt>Code</dt><dd class="mono">VS-V100</dd></dl>
+      </article>
+      <article class="sku syr">
+        <div class="fig photo"><img src="img/syringe-blister.jpg" alt="50 ml prefilled syringe in tray" loading="lazy"></div>
+        <span class="tag">VERSUS · Juvelife · Syringe</span>
+        <h3>50<span>ml</span></h3>
+        <p>Ready to inject. No transfer step, which shortens set-up and limits handling.</p>
+        <dl><dt>Format</dt><dd>Prefilled syringe</dd><dt>Use</dt><dd>Direct injection</dd><dt>Brands</dt><dd>VERSUS, Juvelife</dd></dl>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="formats" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Choosing a format</div>
+      <h2>Vial or syringe?</h2>
+    </div>
+    <div class="formats">
+      <div class="fmt v">
+        <span class="eyebrow">VERSUS vials · 50 / 60 / 100 ml</span>
+        <h3>Flexible dosing</h3>
+        <ul>
+          <li>Clinic draws the exact volume per area into its own syringes and cannulas</li>
+          <li>Lower cost per millilitre at larger unit sizes</li>
+          <li>Fits practices with established aseptic transfer protocols</li>
+        </ul>
+      </div>
+      <div class="fmt s">
+        <span class="eyebrow" style="color:var(--mint)">VERSUS · Juvelife syringe · 50 ml</span>
+        <h3>Ready to inject</h3>
+        <ul>
+          <li>Prefilled, so there is no transfer step before treatment</li>
+          <li>Faster chair-side preparation and less handling</li>
+          <li>Suits clinics new to large-volume HA procedures</li>
+        </ul>
+        <figure class="inbox"><img src="img/syringe-blister.jpg" alt="50 ml prefilled syringe and plunger rod in a sealed blister tray" loading="lazy"><figcaption>In the box: 50 ml syringe and plunger rod, sealed tray</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="zones" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Indications</div>
+      <h2>Where large-volume HA is used</h2>
+      <p>Approved indications depend on each country's registration. Confirm local labelling before use.</p>
+    </div>
+    <div class="zones">
+      <div class="zone"><span class="mono">A</span><h3>Buttock contouring</h3><p>Volume and projection for the gluteal region.</p></div>
+      <div class="zone"><span class="mono">B</span><h3>Hip dip correction</h3><p>Smoothing lateral depressions along the hip line.</p></div>
+      <div class="zone"><span class="mono">C</span><h3>Breast area</h3><p>Where locally registered for this indication.</p></div>
+      <div class="zone"><span class="mono">D</span><h3>Calf & limb shaping</h3><p>Contour refinement on the lower leg.</p></div>
+      <div class="zone"><span class="mono">E</span><h3>Chest & pectoral</h3><p>Definition for the male chest.</p></div>
+      <div class="zone"><span class="mono">F</span><h3>Depression correction</h3><p>Post-liposuction irregularities and soft-tissue dents.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="specs" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Specifications</div>
+      <h2>Product data</h2>
+    </div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>Large-volume line</th><th>VERSUS vial 50 ml</th><th>VERSUS vial 60 ml</th><th>VERSUS vial 100 ml</th><th>VERSUS / Juvelife syringe 50 ml</th></tr></thead>
+        <tbody>
+          <tr><th>Composition</th><td colspan="4">Cross-linked hyaluronic acid gel</td></tr>
+          <tr><th>HA concentration</th><td colspan="4"><span class="mono">20 mg/ml or 24 mg/ml</span></td></tr>
+          <tr><th>Lidocaine</th><td colspan="4">None (lidocaine-free)</td></tr>
+          <tr><th>Fill volume</th><td class="mono">50 ml</td><td class="mono">60 ml</td><td class="mono">100 ml</td><td class="mono">50 ml</td></tr>
+          <tr><th>Container</th><td>Vial</td><td>Vial</td><td>Vial</td><td>Prefilled syringe</td></tr>
+          <tr><th>Shelf life / storage</th><td colspan="4" class="mono">30 months · 2–25 °C</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Particle size, sterilisation and certification details are in the full technical datasheet and IFU, provided to qualified partners on request.</p>
+  </div>
+</section>
+
+<section id="inquiry" style="padding-top:0">
+  <div class="wrap inq">
+    <div class="head" style="margin:0">
+      <div class="eyebrow">Partnership</div>
+      <h2>Supply our HA brands in your market</h2>
+      <p>We work with licensed distributors and clinic groups across Russia/CIS, the Middle East and Europe. Tell us the formats and volumes you need and we'll reply with pricing, MOQ and registration documents.</p>
+      <div class="mailbox">
+        <span class="eyebrow">Email</span>
+        <a class="mail mono" href="mailto:info@beyondworld.co.kr" id="mailaddr">info@beyondworld.co.kr</a>
+        <button class="btn ghost" type="button" id="cpmail">Copy address</button>
+      </div>
+      <p style="margin-top:8px">Supplied by <b style="color:var(--fg)">Beyondworld</b> · <a href="https://beyondworld.co.kr">beyondworld.co.kr</a></p>
+    </div>
+    <form id="f" novalidate>
+      <label>Company<input id="co" required placeholder="Company name"></label>
+      <label>Country<input id="ct" required placeholder="e.g. UAE"></label>
+      <label>Business type<select id="bt"><option>Distributor</option><option>Clinic / clinic group</option><option>Importer</option><option>Other</option></select></label>
+      <label>Contact email<input id="em" type="email" required placeholder="you@company.com"></label>
+      <div class="full">
+        <fieldset id="br"><legend>Brands</legend>
+          <label class="chip"><input type="checkbox" id="b1" value="VERSUS" checked><span>VERSUS</span></label>
+          <label class="chip"><input type="checkbox" id="b2" value="GROA"><span>GROA</span></label>
+          <label class="chip"><input type="checkbox" id="b3" value="JUVELIFE"><span>JUVELIFE</span></label>
+          <label class="chip"><input type="checkbox" id="b4" value="LEVERMAX"><span>LEVERMAX</span></label>
+          <label class="chip"><input type="checkbox" id="b5" value="LifDerma"><span>LifDerma</span></label>
+        </fieldset>
+      </div>
+      <div class="full">
+        <fieldset id="cn"><legend>HA concentration</legend>
+          <label class="chip"><input type="checkbox" id="c1" value="20 mg/ml" checked><span>20 mg/ml</span></label>
+          <label class="chip"><input type="checkbox" id="c2" value="24 mg/ml"><span>24 mg/ml</span></label>
+        </fieldset>
+      </div>
+      <div class="full">
+        <fieldset id="sk"><legend>Products of interest</legend>
+          <label class="chip"><input type="checkbox" id="k1" value="VERSUS vial 50 ml" checked><span>VERSUS vial 50 ml</span></label>
+          <label class="chip"><input type="checkbox" id="k2" value="VERSUS vial 60 ml"><span>VERSUS vial 60 ml</span></label>
+          <label class="chip"><input type="checkbox" id="k3" value="VERSUS vial 100 ml"><span>VERSUS vial 100 ml</span></label>
+          <label class="chip"><input type="checkbox" id="k4" value="Syringe 50 ml" checked><span>Syringe 50 ml (VERSUS / Juvelife)</span></label>
+        </fieldset>
+      </div>
+      <label class="full">Message<textarea id="ms" placeholder="Expected monthly volume, registration status in your country, questions"></textarea></label>
+      <div class="full"><button class="btn" type="submit">Prepare inquiry</button></div>
+      <div class="out" id="out" hidden>
+        <p style="font-size:.85rem">Copy this and email it to <b class="mono" style="color:var(--fg);user-select:all">info@beyondworld.co.kr</b>.</p>
+        <pre id="txt"></pre>
+        <div><button class="btn ghost" type="button" id="cp">Copy inquiry</button></div>
+      </div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Beyondworld · VERSUS · GROA · JUVELIFE · LEVERMAX · LifDerma · <span class="mono" style="user-select:all">info@beyondworld.co.kr</span></span>
+    <span>For professional use by licensed practitioners only. Availability depends on local registration.</span>
+  </div>
+</footer>
+
+<script>
+const f=document.getElementById('f'),out=document.getElementById('out'),txt=document.getElementById('txt');
+f.addEventListener('submit',e=>{
+  e.preventDefault();
+  const v=id=>document.getElementById(id).value.trim();
+  const pick=s=>[...document.querySelectorAll(s+' input:checked')].map(i=>i.value).join(', ')||'Not specified';
+  const skus=[...document.querySelectorAll('#sk input:checked')].map(i=>i.value);
+  if(!v('co')||!v('ct')||!v('em')){txt.textContent='Please fill in company, country and email.';out.hidden=false;return;}
+  txt.textContent=`Subject: HA filler partnership inquiry — ${v('co')} (${v('ct')})
+
+Company: ${v('co')}
+Country: ${v('ct')}
+Business type: ${v('bt')}
+Email: ${v('em')}
+Brands: ${pick('#br')}
+Concentration: ${pick('#cn')}
+Formats: ${skus.length?skus.join(', '):'Not specified'}
+
+${v('ms')||'Please send price list, MOQ and registration documents.'}`;
+  out.hidden=false;
+});
+document.getElementById('cp').addEventListener('click',async e=>{
+  try{await navigator.clipboard.writeText(txt.textContent);e.target.textContent='Copied';}
+  catch{const r=document.createRange();r.selectNodeContents(txt);const s=getSelection();s.removeAllRanges();s.addRange(r);e.target.textContent='Selected — press Ctrl+C';}
+});
+document.getElementById('cpmail').addEventListener('click',async e=>{
+  const a='info@beyondworld.co.kr';
+  try{await navigator.clipboard.writeText(a);e.target.textContent='Copied';}
+  catch{const r=document.createRange();r.selectNodeContents(document.getElementById('mailaddr'));const s=getSelection();s.removeAllRanges();s.addRange(r);e.target.textContent='Selected — press Ctrl+C';}
+});
+</script>
+
+</body>
+</html>
